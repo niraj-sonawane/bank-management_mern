@@ -13,19 +13,19 @@ const nextConfig = {
     return [
       {
         source: "/api/auth/:path*",
-        destination: "http://localhost:5000/api/auth/:path*",
+        destination: "https://bank-management-mern-hbeb.onrender.com/api/auth/:path*",
       },
       {
         source: "/api/bank/:path*",
-        destination: "http://localhost:5000/api/bank/:path*",
+        destination: "https://bank-management-mern-hbeb.onrender.com/api/bank/:path*",
       },
       {
         source: "/api/transactions/:path*",
-        destination: "http://localhost:5000/api/transactions/:path*",
+        destination: "https://bank-management-mern-hbeb.onrender.com/api/transactions/:path*",
       },
       {
         source: "/api/transfer",
-        destination: "http://localhost:5000/api/transfer",
+        destination: "https://bank-management-mern-hbeb.onrender.com/api/transfer",
       },
     ];
   },
